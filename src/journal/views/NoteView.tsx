@@ -25,12 +25,13 @@ const NoteView = () => {
                 label="Título"
                 sx={{ border: 'none', mb: 1 }}
             />
-
-            <TextField
+            
+            <TextField 
                 type="text"
-                variant='filled'
+                variant="filled"
                 fullWidth
-                placeholder='¿Qué sucedió en el día de hoy?'
+                multiline
+                placeholder="¿Qué sucedió en el día de hoy?"
                 minRows={ 5 }
             />
         </Grid>
