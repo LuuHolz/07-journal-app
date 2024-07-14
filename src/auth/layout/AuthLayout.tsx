@@ -20,6 +20,7 @@ const AuthLayout = ({ children , title = '' }) => {
             padding: 3, 
             borderRadius: 2 
         }}>
+          
         <Typography variant="h5" sx={{ mb: 1 }}>
             { title }
         </Typography>
